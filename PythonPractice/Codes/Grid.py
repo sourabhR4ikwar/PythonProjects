@@ -26,4 +26,4 @@ def displayGrid():
     column()
     row()
 
-displayGrid();
+displayGrid()
