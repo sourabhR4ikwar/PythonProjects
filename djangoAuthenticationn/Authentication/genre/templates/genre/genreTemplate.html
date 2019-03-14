@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Genre</title>
+  </head>
+  <body>
+    {% for genreObject in all_collection %}
+        <div align="center">
+          <img src={{genreObject.coll_cover}} height="200" width="200">
+          <h2> {{genreObject.collection_name}} </h2>
+          <p> details : {{genreObject.description}}</p>
+        </div>
+    {% endfor %}
+  </body>
+</html>
